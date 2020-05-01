@@ -1,0 +1,38 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "Remera Hombre",
+        "description": "Remera para Machos, Estilo Joe Exotic",
+        "price": "2500.00",
+        "slug": "remera-hombre",
+        "image": "products/s-l400_GNJNMuJ.jpg",
+        "created_at": "2020-04-26T14:46:34.380Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "Remera Mujer",
+        "description": "No apta para feminazis",
+        "price": "3500.00",
+        "slug": "remera-mujer",
+        "image": "products/8992288_0_4QvKOdM.jpg",
+        "created_at": "2020-04-26T14:47:01.727Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "TapaJeta",
+        "description": "No te salva del Covid-19, pero te muestra cool en Instagram",
+        "price": "500.00",
+        "slug": "tapajeta",
+        "image": "products/river_wIso4gS.webp",
+        "created_at": "2020-04-26T14:47:25.637Z"
+    }
+}
+]

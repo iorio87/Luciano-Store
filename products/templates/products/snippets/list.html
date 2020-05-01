@@ -1,0 +1,9 @@
+<div class="row">
+            
+            {% for object in product_list %} <!-- 'product_list'se puede igualar a product para que quede mas presentable (ver ProductListView) -->
+                <div class="col-3 mt-5">
+                    {% include 'products/snippets/product.html' with product=object %}
+                </div>
+            {% endfor %}
+
+        </div>
